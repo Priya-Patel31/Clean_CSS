@@ -17,14 +17,14 @@ hamIcon.addEventListener("click", () => {
 
 async function runApp() {
   const files = [
-    {
-      id: "alerts-container",
-      source: fetch("../component/alert/alert.html"),
-    },
-    {
-      id: "avatar-container",
-      source: fetch("../component/avatar/avatar.html"),
-    }
+    // {
+    //   id: "alerts-container",
+    //   source: fetch("../component/alert/alert.html"),
+    // },
+    // {
+    //   id: "avatar-container",
+    //   source: fetch("../component/avatar/avatar.html"),
+    // }
    
     // {
     //   id: "badge-container",
