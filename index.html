@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Poppins:wght@200;300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="component/component.css" />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="navbar">
+        <div class="hamburger-icon" id="hamburg">
+          <img class="menu-icon" src="images/menu-icon.svg" />
+        </div>
+        <div class="nav-icon-container">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="/">Getting started</a>
+            </li>
+            <li class="nav-item">
+              <a href="../Documentation/documentation.html">Components</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-social-media-icon-container">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="https://github.com/Priya-Patel31">
+                <span class="nav-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/Priya-Patel31">
+                <span class="nav-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/priya-patel-201b33202">
+                <span class="nav-icon">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content-container">
+        <div id="sidebar-mobile" class="sidebar">
+          <div class="sidebar-logo-container">
+            <div class="logo">
+              <img class="logo-image" src="images/logo1.png" />
+            </div>
+            <div class="logo-text">UI</div>
+            <div class="close">
+              <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
+          </div>
+          <ul>
+            <li class="sidebar-list-item">
+              <a href="#gettingStarted">Getting started</a>
+            </li>
+            <li class="sidebar-list-item">
+              <a href="#installation">Installation</a>
+            </li>
+            <li class="sidebar-list-item">
+              <a href="#features">Features</a>
+            </li>
+          </ul>
+        </div>
+
+        <section class="section-content">
+          <div class="sections-container">
+            <div class="section1-container">
+              <h2 class="section1-heading">
+                <a href="">Getting Started</a>
+              </h2>
+              <p class="section1-text">
+                <span>Clean UI</span> is a free, open source library that
+                provides ready-to-use frontend components that you can easily
+                combine to build responsive web interfaces.
+              </p>
+            </div>
+            <div class="section2-container">
+              <h2 class="section1-heading">Installation</h2>
+              <p class="section-text">
+                You can directly import the css file in your html using the
+                following link tag.
+              </p>
+              <!-- code link-->
+
+              <p class="code-link">
+                <code>
+                  &lt;link rel="stylesheet"
+                  href="https://CleanUI.netlify.app/component.css" />
+                </code>
+              </p>
+
+              <p class="section-text">
+                To get the Font Awesome Icons, import the following link tag of
+                your project.
+              </p>
+
+              <!-- code link-->
+              <p class="code-link">
+                <code>
+                  &lt;link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                </code>
+              </p>
+            </div>
+
+            <!-- Section-2 started -->
+
+            <div class="section3-container">
+              <h1 class="section1-heading">Features</h1>
+              <div class="section1-cards-container">
+                <div class="section1-card">
+                  <div class="section1-card-icon">
+                    <i class="fa fa-laptop card-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="section-card">
+                    <h2 class="card-header">Responsive</h2>
+                    <p class="card-content">Designed for Mobile & Desktop</p>
+                  </div>
+                </div>
+                <div class="section1-card">
+                  <div class="section1-card-icon">
+                    <i
+                      class="fa fa-file-code-o card-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="section-card">
+                    <h2 class="card-header">Modern</h2>
+                    <p class="card-content">It is built using flex and grid.</p>
+                  </div>
+                </div>
+                <div class="section1-card">
+                  <div class="section1-card-icon">
+                    <i class="fa fa-github card-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="section-card">
+                    <h2 class="card-header">Free</h2>
+                    <p class="card-content">Open Source on Github</p>
+                  </div>
+                </div>
+                <div class="section1-card">
+                  <div class="section1-card-icon">
+                    <i class="fa fa-cubes card-icon" aria-hidden="true"></i>
+                  </div>
+                  <div class="section-card">
+                    <h2 class="card-header">Modular</h2>
+                    <p class="card-content">Just import what you need</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section-2 ended -->
+          </div>
+        </section>
+      </div>
+      <footer></footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

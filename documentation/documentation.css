@@ -1,0 +1,182 @@
+.header-container {
+    display: flex;
+  }
+  
+  /* Sidebar CSS started */
+  .sidebar {
+    background-color: white;
+    bottom: 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 12rem;
+    z-index: 200;
+    overflow:auto;
+  }
+  /* Hiding scrollbar for chrome ,safari */
+  .sidebar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sidebar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .sidebar-logo-container {
+    border-bottom: 1px solid grey;
+    display: flex;
+    position: relative;
+  }
+  .logo {
+    flex: 0.5;
+  }
+  .logo-image {
+    width: 6rem;
+    height: 6rem;
+  }
+  .logo-text {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    flex: 1;
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--light-pink);
+  }
+  .comp-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 0.6rem;
+    padding-top: 1rem;
+  }
+  .comp-unordered-list {
+    list-style: none;
+    font-size: 18px;
+    padding: 0.5rem 0.5rem;
+  }
+  .comp-unordered-list li {
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+  }
+  .comp-scroll{
+    overflow-y:scroll;
+  }
+  
+  
+  
+  /* Navbar CSS started */
+  
+  .navbar {
+    background-color: white;
+    /* border:1px solid red; */
+    display: flex;
+    height: 5rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: fixed;
+    top: 0;
+    left: 12rem;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .hamburger-icon {
+    cursor: pointer;
+    font-size: 32px;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+  }
+  
+  .menu-icon {
+    display: none;
+    height: 1.6rem;
+    width: 2.2rem;
+  }
+  .nav-icon-container {
+    position: relative;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .nav-item {
+    font-size: 20px;
+    margin: 0 1.3rem;
+  }
+  .nav-social-media-icon-container {
+    position: absolute;
+    right: 200px;
+  }
+  
+  .nav-icon {
+    font-size: 25px;
+  }
+  
+  /* Navbar CSS ended */
+  
+  /* Main Section CSS started */
+  
+  .section-container {
+    background-color: var(--blue);
+    border-top-left-radius: 6rem;
+    margin-left: -100px;
+    padding-left: 30px;
+  }
+  .hero-section-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding:5%;
+  }
+  
+  hr {
+    margin-top: 4rem;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .hamburger-icon {
+      cursor: pointer;
+    }
+    .menu-icon {
+      display: block;
+    }
+    .sidebar {
+      display: none;
+      cursor: pointer;
+    }
+    .nav-header {
+      left: 0px;
+      top: 0px;
+    }
+    .nav-icon-container {
+      display: none;
+    }
+    .nav-social-media-icon-container {
+      right: 10px;
+    }
+    .nav-main-container {
+      margin-left: 0px;
+    }
+    .hero-section-container {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      /* padding-left: 0px; */
+      margin-left: 0px;
+    }
+    .section-content {
+      margin-left: 0px;
+    }
+    .navbar {
+      left: 0px;
+    }
+  }
+  
+  
+  
