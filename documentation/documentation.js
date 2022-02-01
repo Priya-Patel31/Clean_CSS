@@ -26,14 +26,14 @@ async function runApp() {
     //   source: fetch("../component/avatar/avatar.html"),
     // }
    
-    // {
-    //   id: "badge-container",
-    //   source: fetch("../component/badge/badge.html"),
-    // },
-    // {
-    //   id: "button-container",
-    //   source: fetch("../component/button/button.html"),
-    // },
+    {
+      id: "badge-container",
+      source: fetch("../component/badge/badge.html"),
+    },
+    {
+      id: "button-container",
+      source: fetch("../component/button/button.html"),
+    }
     // {
     //   id: "cards-container",
     //   source: fetch("../component/card/card.html"),
