@@ -27,6 +27,7 @@ input {
   padding: 15px;
   border-radius: 0.5rem;
   width: 50%;
+  font-family:'Varela Round',sans-serif;
 }
 #warning {
   border: 1px solid var(--dark-yellow);
