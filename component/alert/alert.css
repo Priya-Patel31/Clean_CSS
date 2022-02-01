@@ -1,0 +1,59 @@
+.alert-heading {
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+  .code-snippet-link {
+    box-sizing: border-box;
+    max-height: 400px;
+    width: 100%;
+    overflow: auto;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .code-example {
+    margin:2rem 0 1rem 0;
+    width: 95%;
+    max-width: 1000px;
+    height: 200px;
+  }
+  
+  .pink{
+    background-color:var(--light-pink);
+  }
+  .styling-color{
+    color:var(--light-pink);
+  }
+  .alert-common {
+    padding: 1rem 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+  }
+  .alert-info {
+    border: 2px solid var(--dark-blue);
+    background-color: var(--sky-blue);
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+  }
+  .alert-secondary {
+    border: 2px solid var(--dark-grey);
+    background-color: var(--mild-grey);
+    color: var(--dark-grey);
+  }
+  .alert-success {
+    border: 2px solid var(--dark-green);
+    background-color: var(--light-green);
+    color: var(--dark-green);
+  }
+  .alert-warning {
+    border: 2px solid var(--dark-yellow);
+    background-color: var(--light-yellow);
+    color: var(--dark-yellow);
+  }
+  .alert-danger {
+    border: 2px solid var(--light-pink);
+    background-color: var(--mild-pink);
+    color: var(--light-pink);
+  }
+ 
