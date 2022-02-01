@@ -1,0 +1,83 @@
+.xl-badge,
+.lg-badge,
+.md-badge,
+.sm-badge {
+  position: relative;
+}
+.badge-xxl-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circle {
+  border-radius: 50%;
+  border: 3px solid var(--light-color);
+  border: 3px solid white;
+}
+.big-circle {
+  position: absolute;
+  bottom: 1.9rem;
+  right: 0.4rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--dark-blue);
+}
+.lg-circle {
+  position: absolute;
+  bottom: 1.6rem;
+  right: 0.4rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--dark-grey);
+}
+.md-circle {
+  position: absolute;
+  bottom: 1rem;
+  right: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--light-pink);
+}
+.sm-circle {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  background-color: var(--dark-color);
+}
+
+.badge {
+  background-color: var(--light-pink);
+  padding: 0.3rem 0.65rem;
+  color: var(--light-color);
+}
+.badge-rounded {
+  border-radius: 0.7rem;
+}
+.badge-square {
+  border-radius: 0.2rem;
+}
+.badge-icon-container {
+  padding: 1rem 0;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.badge-icon {
+  position: relative;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  /* margin-right:3rem; */
+}
+.badge-count {
+  background-color: var(--light-pink);
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.2rem;
+  color: var(--light-color);
+  top: 1px;
+  right: -10px;
+}
