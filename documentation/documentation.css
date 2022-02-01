@@ -136,7 +136,9 @@
 #avatar-container,
 #badge-container,
 #button-container,
-#cards-container {
+#cards-container,
+#form-container,
+#responsive-image-ctn {
   padding: 5%;
 }
 
