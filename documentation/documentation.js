@@ -17,23 +17,23 @@ hamIcon.addEventListener("click", () => {
 
 async function runApp() {
   const files = [
-    // {
-    //   id: "alerts-container",
-    //   source: fetch("../component/alert/alert.html"),
-    // },
-    // {
-    //   id: "avatar-container",
-    //   source: fetch("../component/avatar/avatar.html"),
-    // }
+    {
+      id: "alerts-container",
+      source: fetch("../component/alert/alert.html"),
+    },
+    {
+      id: "avatar-container",
+      source: fetch("../component/avatar/avatar.html"),
+    },
    
-    // {
-    //   id: "badge-container",
-    //   source: fetch("../component/badge/badge.html"),
-    // },
-    // {
-    //   id: "button-container",
-    //   source: fetch("../component/button/button.html"),
-    // },
+    {
+      id: "badge-container",
+      source: fetch("../component/badge/badge.html"),
+    },
+    {
+      id: "button-container",
+      source: fetch("../component/button/button.html"),
+    }
     // {
     //   id: "cards-container",
     //   source: fetch("../component/card/card.html"),
