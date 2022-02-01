@@ -138,7 +138,9 @@
 #button-container,
 #cards-container,
 #form-container,
-#responsive-image-ctn {
+#responsive-image-ctn ,
+#modal-container,
+#toast-container{
   padding: 5%;
 }
 
