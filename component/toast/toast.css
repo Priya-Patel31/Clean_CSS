@@ -1,0 +1,27 @@
+.toast-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+  }
+  .toast {
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+   
+  }
+  .toast-success {
+    border: 2px solid var(--dark-green);
+    background-color: var(--light-green);
+    color:var(--dark-green);
+  }
+  .toast-error {
+    border: 2px solid var(--light-pink);
+    background-color: var(--mild-pink);
+    color:var(--light-pink);
+  }
+  
+  .cross-icon1 {
+    border: none;
+    background: transparent;
+    margin-left: 1rem;
+  }
+  

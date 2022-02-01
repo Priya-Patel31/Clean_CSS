@@ -45,6 +45,14 @@ async function runApp() {
     {
       id: "responsive-image-ctn",
       source: fetch("../component/image/image.html"),
+    },
+     {
+      id: "modal-container",
+      source: fetch("../component/modal/modal.html"),
+    },
+    {
+      id: "toast-container",
+      source: fetch("../component/toast/toast.html"),
     }
    
   ];
