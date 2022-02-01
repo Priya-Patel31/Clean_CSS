@@ -1,0 +1,58 @@
+<h1 class="styling-color">Form Components</h1>
+<p>
+  Form components display a record of data, usually for editing. Forms contain
+  field and button components. Field components display the data in those fields
+  and buttons perform some actions when pressed.
+</p>
+<h2>Standard Input</h2>
+<div class="outline">
+  <form>
+    <label for="email">Email<span class="styling-color">*</span> </label>
+    <input
+      id="email"
+      class="input-field form-control"
+      type="email"
+      placeholder="Enter email"
+      required
+    />
+
+    <label for="password">password<span class="styling-color">*</span> </label>
+    <input
+      id="password"
+      class="input-field form-control"
+      type="password"
+      placeholder="Enter password"
+      required
+    />
+  </form>
+</div>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=727&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%253Cspan%2520class%253D%2522styling-color%2522%253E*%253C%252Fspan%253E%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520id%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520email%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253Epassword%253Cspan%2520class%253D%2522styling-color%2522%253E*%253C%252Fspan%253E%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520password%2522%250A%2520%2520%2520%2520%2520%2520required%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fform%253E"
+  class="code-example"
+  sandbox="allow-scripts allow-same-origin"
+>
+</iframe>
+
+<h2>Example of different input styles</h2>
+<div class="outline">
+  <div class="input-box error-input">
+    <input id="error" placeholder=" " class="form-control" />
+    <label for="error">error </label>
+  </div>
+  <div class="input-box warning-input">
+    <input id="warning" placeholder=" " class="form-control" />
+    <label for="warning">warning</label>
+  </div>
+
+  <div class="input-box success-input">
+    <input id="success" placeholder=" " class="form-control" />
+    <label for="success">success</label>
+  </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=htmlmixed&width=727&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input-box%2520error-input%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522error%2522%2520placeholder%253D%2522%2520%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522error%2522%253Eerror%2520%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-box%2520warning-input%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522warning%2522%2520placeholder%253D%2522%2520%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522warning%2522%253Ewarning%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522input-box%2520success-input%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522success%2522%2520placeholder%253D%2522%2520%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522success%2522%253Esuccess%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E"
+  class="code-example"
+  sandbox="allow-scripts allow-same-origin"
+>
+</iframe>

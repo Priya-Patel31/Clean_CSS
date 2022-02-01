@@ -136,7 +136,9 @@
 #avatar-container,
 #badge-container,
 #button-container,
-#cards-container {
+#cards-container,
+#form-container,
+#image-container {
   padding: 5%;
 }
 

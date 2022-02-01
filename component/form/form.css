@@ -1,0 +1,55 @@
+.input-field {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--light-grey);
+  margin-bottom: 0.5rem;
+}
+#email,
+#password {
+  margin-top: 10px;
+}
+.input-box {
+  position: relative;
+  margin: 20px 0;
+}
+label {
+  padding: 0px 5px;
+  pointer-events: none;
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  transition: all 0.2s ease;
+  background: rgb(255, 253, 253);
+}
+input {
+  padding: 15px;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+#warning {
+  border: 1px solid var(--dark-yellow);
+}
+#error {
+  border: 1px solid var(--light-pink);
+  border: 1px solid var(--light-pink);
+}
+#success {
+  border: 1px solid var(--dark-green);
+  border: 1px solid var(--dark-green);
+}
+.warning-input label {
+  color: var(--dark-yellow);
+}
+.error-input label {
+  color: var(--light-pink);
+}
+.success-input label {
+  color: var(--dark-green);
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  transform: scale(1) translateY(-70%) translateX(-10px);
+}

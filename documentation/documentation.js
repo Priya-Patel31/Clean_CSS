@@ -37,11 +37,15 @@ async function runApp() {
     {
       id: "cards-container",
       source: fetch("../component/card/card.html"),
+    },
+    {
+      id: "form-container",
+      source: fetch("../component/form/form.html"),
+    },
+    {
+      id: "responsive-image-ctn",
+      source: fetch("../component/image/image.html"),
     }
-    // {
-    //   id: "form-container",
-    //   source: fetch("../component/form/form.html"),
-    // }
    
   ];
 
