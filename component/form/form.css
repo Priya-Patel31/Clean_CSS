@@ -33,11 +33,11 @@ input {
 }
 #error {
   border: 1px solid var(--light-pink);
-  border: 1px solid var(--light-pink);
+
 }
 #success {
   border: 1px solid var(--dark-green);
-  border: 1px solid var(--dark-green);
+
 }
 .warning-input label {
   color: var(--dark-yellow);
