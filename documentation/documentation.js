@@ -33,11 +33,11 @@ async function runApp() {
     {
       id: "button-container",
       source: fetch("../component/button/button.html"),
+    },
+    {
+      id: "cards-container",
+      source: fetch("../component/card/card.html"),
     }
-    // {
-    //   id: "cards-container",
-    //   source: fetch("../component/card/card.html"),
-    // },
     // {
     //   id: "form-container",
     //   source: fetch("../component/form/form.html"),
