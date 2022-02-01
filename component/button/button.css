@@ -1,0 +1,67 @@
+.button {
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+    color: var(--light-color);
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .primary-btn-pink {
+    background-color: var(--light-pink);
+    border: 1px solid var(--light-pink);
+  }
+  .primary-btn-white {
+    background-color: var(--light-color);
+    border: 1px solid var(--light-pink);
+    color: var(--light-pink);
+  }
+  .secondary-btn-grey {
+    background-color: var(--lighter-grey);
+    border: 1px solid var(--lighter-grey);
+    color: var(--secondary-color);
+  }
+  .secondary-btn-light {
+    background-color: var(--light-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+  }
+  .large-btn {
+    padding: 0.8rem 1rem;
+  }
+  .small-btn {
+    font-size: 0.8rem;
+    border-radius: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    
+  }
+  i{
+      cursor: pointer;
+  }
+  .floating-btn {
+    gap: 3rem;
+    font-size: 3.5rem;
+    color: var(--light-pink);
+  }
+  .link {
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .link-primary{
+      background-color:var(--light-pink);
+      color:var(--light-color);
+  }
+  .link-secondary{
+      background-color:var(--mild-pink);
+      border:2px solid var(--light-pink);
+      color:var(--light-pink);
+  }
+  .link-outline{
+      background-color:var(--light-color);
+      color:var(--light-pink);
+  }
+  
+  
