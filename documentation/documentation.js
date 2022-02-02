@@ -53,13 +53,16 @@ async function runApp() {
     },
     {
       id: "grid-simplified-container",
-      source: fetch("../component/grid-simplified/grid-simplified.html")
+      source: fetch("../component/grid-simplified/grid-simplified.html"),
     },
     {
       id: "modal-container",
       source: fetch("../component/modal/modal.html"),
-    }
-  
+    },
+    {
+      id: "toast-container",
+      source: fetch("../component/toast/toast.html"),
+    },
   ];
 
   const promises = await Promise.allSettled(files.map((e) => e.source));
