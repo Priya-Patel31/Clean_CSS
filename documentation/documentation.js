@@ -46,6 +46,7 @@ async function runApp() {
       id: "responsive-image-container",
       source: fetch("../component/image/image.html"),
     },
+
     {
       id: "rating-container",
       source: fetch("../component/rating/rating.html"),
@@ -53,7 +54,11 @@ async function runApp() {
     {
       id: "grid-simplified-container",
       source: fetch("../component/grid-simplified/grid-simplified.html"),
+
+      id: "modal-container",
+      source: fetch("../component/modal/modal.html"),
     }
+  
   ];
 
   const promises = await Promise.allSettled(files.map((e) => e.source));

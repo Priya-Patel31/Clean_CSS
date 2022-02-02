@@ -15,102 +15,98 @@
 @import url(../component/toast/toast.css);
 @import url(../component/grid-simplified/grid-simplified.css);
 
+:root {
+  --light-pink: #f50057;
+  --mild-pink: #fbcfe8;
+  --blue: #f0f8ff;
+  --dark-blue: darkblue;
+  --mild-blue: #2d3092;
+  --sky-blue: #adeef1;
+  --dark-green: #44c59d;
+  --light-green: #d1fae5;
+  --dark-yellow: #fbc13b;
+  --light-yellow: #fef3c7;
+  --secondary-color: #696b79;
+  --dark-color: #323232;
+  --light-color: white;
+  --dark-grey: grey;
+  --light-grey: #7b7b7b;
+  --lighter-grey: #e6e6e6;
+  --mild-grey: #d4d6db;
+  --gold-color: gold;
+}
 
-:root{
-    --light-pink :#f50057;
-    --mild-pink:#fbcfe8;
-    --blue:#f0f8ff;
-    --dark-blue:darkblue;
-    --mild-blue: #2d3092; 
-    --sky-blue :#adeef1;
-    --dark-green:#44c59d;
-    --light-green:#d1fae5;
-    --dark-yellow:#fbc13b;
-    --light-yellow:#fef3c7;
-    --secondary-color: #696b79;
-    --dark-color: #323232;
-    --light-color: white;
-    --dark-grey:grey;
-    --light-grey: #7b7b7b; 
-    --lighter-grey: #e6e6e6;
-    --mild-grey:#d4d6db;   
-    --gold-color:gold;
-     
-   
-    /* #C9E3FF */
-    /* --font:"Montserrat", sans-serif; */
-       }
 
-body{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;  
-    font-family:'Varela Round',sans-serif;
-    
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
 }
-a{
-    text-decoration: none;
-    color:inherit;
+a {
+  text-decoration: none;
+  color: inherit;
+
 }
-.sub-content{
-    font-size:1.3rem;
-    color:var(--dark-blue);
+.sub-content {
+  font-size: 1.3rem;
+  color: var(--dark-blue);
 }
-.outline{
-    border: 1px solid var(--light-grey);
-    border-radius: 0.3rem;
-    padding: 1rem 1rem;
+.outline {
+  border: 1px solid var(--light-grey);
+  border-radius: 0.3rem;
+  padding: 1rem 1rem;
 }
-.flex-row{
-    display: flex;
-    flex-direction: row;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
-.flex-col{
-    display: flex;
-    flex-direction: column;
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }
-li{
-    cursor:pointer;
+li {
+  cursor: pointer;
 }
-.p-1{
-    padding :0.5rem;
+.p-1 {
+  padding: 0.5rem;
 }
-.pl-1{
-    padding-left:0.5rem;
+.pl-1 {
+  padding-left: 0.5rem;
 }
-.pr-1{
-    padding-right:0.5rem;
+.pr-1 {
+  padding-right: 0.5rem;
 }
-.pt-1{
-    padding-top:0.5rem;
+.pt-1 {
+  padding-top: 0.5rem;
 }
-.pb-1{
-    padding-bottom: 0.5rem;
+.pb-1 {
+  padding-bottom: 0.5rem;
 }
-.px-1{
-    padding: 0 0.5rem;
+.px-1 {
+  padding: 0 0.5rem;
 }
-.py-1{
-    padding:0.5rem 0 ;
+.py-1 {
+  padding: 0.5rem 0;
 }
-.m-1{
-    margin:0.5rem;
+.m-1 {
+  margin: 0.5rem;
 }
-.ml-1{
-    margin-left:0.5rem;
+.ml-1 {
+  margin-left: 0.5rem;
 }
-.mr-1{
-    margin-right:0.5rem;
+.mr-1 {
+  margin-right: 0.5rem;
 }
-.mt-1{
-    margin-top:0.5rem;
+.mt-1 {
+  margin-top: 0.5rem;
 }
-.mb-1{
-    margin-bottom:0.5rem;
+.mb-1 {
+  margin-bottom: 0.5rem;
 }
-.my-1{
-    margin:0.5rem 0;
+.my-1 {
+  margin: 0.5rem 0;
 }
-.mx-1{
-    margin:0 0.5rem;
+.mx-1 {
+  margin: 0 0.5rem;
 }
