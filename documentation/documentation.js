@@ -43,7 +43,7 @@ async function runApp() {
       source: fetch("../component/form/form.html"),
     },
     {
-      id: "responsive-image-ctn",
+      id: "responsive-image-container",
       source: fetch("../component/image/image.html"),
     },
      {
@@ -70,6 +70,11 @@ async function runApp() {
  
 }
 runApp();
+
+
+//THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT A SECOND WAY OF DOING BY USING FETCH
+
+
 
 // fetch("../component/alert/alert.html")
 // .then(res => res.text())
@@ -103,7 +108,7 @@ runApp();
 
 // fetch("../component/image/image.html")
 // .then(res => res.text())
-// .then(html => document.getElementById("responsive-image-ctn").innerHTML = html)
+// .then(html => document.getElementById("responsive-image-container").innerHTML = html)
 // .catch(err => console.log(err));
 
 // fetch("../component/lists/lists.html")
