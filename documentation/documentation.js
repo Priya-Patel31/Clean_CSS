@@ -57,8 +57,11 @@ async function runApp() {
 
       id: "modal-container",
       source: fetch("../component/modal/modal.html"),
-    }
-  
+    },
+    {
+      id: "slider-container",
+      source: fetch("../component/slider/slider.html"),
+    },
   ];
 
   const promises = await Promise.allSettled(files.map((e) => e.source));
