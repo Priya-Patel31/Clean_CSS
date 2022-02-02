@@ -1,10 +1,10 @@
 .alert-heading {
     font-size: 2rem;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   .code-snippet-link {
     box-sizing: border-box;
-    max-height: 400px;
+    max-height: 25rem;
     width: 100%;
     overflow: auto;
     padding: 1rem 0;
@@ -14,8 +14,8 @@
   .code-example {
     margin:2rem 0 1rem 0;
     width: 95%;
-    max-width: 1000px;
-    height: 200px;
+    max-width: 62.5rem;
+    height:12.5rem;
   }
   
   .pink{
