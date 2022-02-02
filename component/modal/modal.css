@@ -1,36 +1,33 @@
 .modal-container{
-  
-    max-width: 600px;
-    width: 100%;
+    max-width: 35rem;
     padding:1rem;
     overflow: auto;
-    padding: 0px 30px;
+    padding: 0 1.5rem;
     box-sizing: border-box;
     background-color:var(--dark-blue);
-    color:white;
+    color:var(--light-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
 
 }
-.modal-content-ctn{
+.modal-content-container{
     text-align: center;
+    padding:0 2rem;
 }
-.modal-content-ctn h6{
-    text-align: center;
-}
+
 .modal-cross-icon{
     font-size: 1.5rem;
     margin-left: auto;
+    padding-top:1rem;
+    background-color: transparent;
+    color:var(--light-color);
     border:none;
 }
-.modal-content-ctn{
-    padding:0 2rem;
-}
-.modal-btn{
+
+.modal-button{
     padding:0.5rem;
     font-size: 1rem;
-    font-weight: 600;
     border-radius:0.2rem;
     border:none;
     cursor:pointer;

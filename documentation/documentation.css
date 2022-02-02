@@ -130,18 +130,7 @@
 .hero-section-container {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* padding:5%; */
-}
-#alerts-container,
-#avatar-container,
-#badge-container,
-#button-container,
-#cards-container,
-#form-container,
-#responsive-image-ctn ,
-#modal-container,
-#toast-container{
-  padding: 5%;
+  padding:5%;
 }
 
 hr {
@@ -160,8 +149,8 @@ hr {
     cursor: pointer;
   }
   .nav-header {
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
   .nav-icon-container {
     display: none;
@@ -170,18 +159,17 @@ hr {
     right: 10px;
   }
   .nav-main-container {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .hero-section-container {
     grid-column-start: 1;
     grid-column-end: 3;
-    /* padding-left: 0px; */
-    margin-left: 0px;
+    margin-left: 0;
   }
   .section-content {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .navbar {
-    left: 0px;
+    left: 0;
   }
 }
