@@ -25,7 +25,7 @@ async function runApp() {
       id: "avatar-container",
       source: fetch("../component/avatar/avatar.html"),
     },
-   
+
     {
       id: "badge-container",
       source: fetch("../component/badge/badge.html"),
@@ -46,15 +46,19 @@ async function runApp() {
       id: "responsive-image-container",
       source: fetch("../component/image/image.html"),
     },
-     {
-      id: "modal-container",
-      source: fetch("../component/modal/modal.html"),
+
+    {
+      id: "rating-container",
+      source: fetch("../component/rating/rating.html"),
     },
     {
-      id: "toast-container",
-      source: fetch("../component/toast/toast.html"),
+      id: "grid-simplified-container",
+      source: fetch("../component/grid-simplified/grid-simplified.html"),
+
+      id: "modal-container",
+      source: fetch("../component/modal/modal.html"),
     }
-   
+  
   ];
 
   const promises = await Promise.allSettled(files.map((e) => e.source));
@@ -64,17 +68,12 @@ async function runApp() {
     if (promise.value.status === 200) {
       const component = await (await promise.value).text();
       document.getElementById(files[i].id).innerHTML = component;
-     
     }
   }
- 
 }
 runApp();
 
-
 //THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT A SECOND WAY OF DOING BY USING FETCH
-
-
 
 // fetch("../component/alert/alert.html")
 // .then(res => res.text())

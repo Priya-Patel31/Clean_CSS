@@ -36,6 +36,7 @@
   --gold-color: gold;
 }
 
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -45,6 +46,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+
 }
 .sub-content {
   font-size: 1.3rem;
