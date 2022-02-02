@@ -1,0 +1,21 @@
+.rating-container{
+    display: flex;
+    gap:0.1rem;
+    font-size:1.5rem;
+}
+.checked{
+  color:gold; 
+}
+.unchecked{
+    color:var(--light-grey);
+}
+.badge-rating-container{
+    background-color:var(--light-pink);
+    max-width:6.2rem;
+    height:1.2rem;
+    display: flex;
+    justify-content: center;
+    gap:0.4rem;
+    font-size: 1.2rem;
+    border-radius:0.2rem;
+}
