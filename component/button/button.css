@@ -7,29 +7,29 @@
     margin-bottom: 1rem;
     cursor: pointer;
   }
-  .primary-btn-pink {
+  .primary-button-pink {
     background-color: var(--light-pink);
     border: 1px solid var(--light-pink);
   }
-  .primary-btn-white {
+  .primary-button-white {
     background-color: var(--light-color);
     border: 1px solid var(--light-pink);
     color: var(--light-pink);
   }
-  .secondary-btn-grey {
+  .secondary-button-grey {
     background-color: var(--lighter-grey);
     border: 1px solid var(--lighter-grey);
     color: var(--secondary-color);
   }
-  .secondary-btn-light {
+  .secondary-button-light {
     background-color: var(--light-color);
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
   }
-  .large-btn {
+  .large-button {
     padding: 0.8rem 1rem;
   }
-  .small-btn {
+  .small-button {
     font-size: 0.8rem;
     border-radius: 0.7rem;
     padding: 0.2rem 0.5rem;
@@ -38,7 +38,7 @@
   i{
       cursor: pointer;
   }
-  .floating-btn {
+  .floating-button {
     gap: 3rem;
     font-size: 3.5rem;
     color: var(--light-pink);

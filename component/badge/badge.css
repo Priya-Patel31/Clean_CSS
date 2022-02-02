@@ -68,14 +68,13 @@
   position: relative;
   font-size: 1.3rem;
   padding: 1rem 0;
-  /* margin-right:3rem; */
 }
 .badge-count {
   background-color: var(--light-pink);
   border-radius: 50%;
   position: absolute;
   font-size: 12px;
-  font-weight: 600;
+ 
   padding: 0.2rem;
   color: var(--light-color);
   top: 1px;
