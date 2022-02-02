@@ -53,8 +53,9 @@ async function runApp() {
     },
     {
       id: "grid-simplified-container",
-      source: fetch("../component/grid-simplified/grid-simplified.html"),
-
+      source: fetch("../component/grid-simplified/grid-simplified.html")
+    },
+    {
       id: "modal-container",
       source: fetch("../component/modal/modal.html"),
     }
