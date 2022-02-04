@@ -12,10 +12,9 @@
 .circle {
   border-radius: 50%;
   border: 3px solid var(--light-color);
-  border: 3px solid white;
-}
-.big-circle {
   position: absolute;
+}
+.xl-circle {
   bottom: 1.9rem;
   right: 0.4rem;
   width: 1rem;
@@ -23,7 +22,6 @@
   background-color: var(--dark-blue);
 }
 .lg-circle {
-  position: absolute;
   bottom: 1.6rem;
   right: 0.4rem;
   width: 0.7rem;
@@ -31,7 +29,6 @@
   background-color: var(--dark-grey);
 }
 .md-circle {
-  position: absolute;
   bottom: 1rem;
   right: 0.2rem;
   width: 0.5rem;
@@ -39,7 +36,6 @@
   background-color: var(--light-pink);
 }
 .sm-circle {
-  position: absolute;
   bottom: 0.6rem;
   right: 0rem;
   width: 0.3rem;

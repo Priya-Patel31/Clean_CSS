@@ -2,8 +2,6 @@
     padding: 0.5rem 0.7rem;
     border-radius: 0.3rem;
     color: var(--light-color);
-    font-size: 1rem;
-    margin : 0 1rem 1rem 0;
     cursor: pointer;
   }
   .primary-button-pink {
@@ -49,7 +47,6 @@
   .link {
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-   
     margin:0 1rem 1rem 0;
     cursor: pointer;
   }
