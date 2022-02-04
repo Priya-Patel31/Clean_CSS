@@ -52,6 +52,10 @@
 .vertical-outer-container {
   position: relative;
 }
+.vertical-card-heading{
+  justify-content: space-between;
+  align-items:center;
+}
 .vertical-image-container {
   flex: 1;
   position: relative;
