@@ -135,7 +135,11 @@
 hr {
   margin-top: 4rem;
 }
-
+@media only screen and (min-width:800px){
+  .comp-heading {
+    display: none;
+  }
+}
 @media only screen and (max-width: 800px) {
   .hamburger-icon {
     cursor: pointer;
