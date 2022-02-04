@@ -39,7 +39,7 @@
     height: 2rem;
     background-color: transparent;
     border: none;
-    outline: 0px;
+    outline: none;
   }
   .hopsop-nav-icons {
     display: flex;

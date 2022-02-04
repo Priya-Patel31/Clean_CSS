@@ -72,7 +72,7 @@
   background-color: var(--light-pink);
   border-radius: 50%;
   position: absolute;
-  font-size: 12px;
+  font-size: 0.6rem;
   padding: 0.2rem;
   color: var(--light-color);
   top: -12px;
