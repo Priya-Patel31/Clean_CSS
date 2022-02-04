@@ -76,7 +76,8 @@
 .navbar {
   background-color: var(--light-color);
   display: flex;
-  height: 5rem;
+  align-items:center;
+  height: 6.2rem;
   grid-column-start: 2;
   grid-column-end: 3;
   position: fixed;
@@ -84,6 +85,7 @@
   left: 12rem;
   width: 100%;
   z-index: 100;
+ box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 10%);
 }
 
 .hamburger-icon {
