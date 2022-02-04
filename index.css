@@ -20,9 +20,9 @@
 }
 
 /* Sidebar CSS started */
+
 .sidebar {
   background-color: var(--light-color);
-
   bottom: 0;
   grid-column-start: 1;
   grid-column-end: 2;
