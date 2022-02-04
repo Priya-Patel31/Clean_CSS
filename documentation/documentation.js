@@ -51,8 +51,16 @@ async function runApp() {
       source: fetch("../component/modal/modal.html"),
     },
     {
+      id: "navigation-container",
+      source: fetch("../component/navigation/navigation.html"),
+    },
+    {
       id: "rating-container",
       source: fetch("../component/rating/rating.html"),
+    },
+    {
+      id: "slider-container",
+      source: fetch("../component/slider/slider.html"),
     },
     {
       id: "grid-simplified-container",
@@ -81,7 +89,7 @@ async function runApp() {
 }
 runApp();
 
-//THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT A SECOND WAY OF DOING BY USING FETCH
+//THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT IS A SECOND WAY OF DOING BY USING FETCH
 
 // fetch("../component/alert/alert.html")
 // .then(res => res.text())
