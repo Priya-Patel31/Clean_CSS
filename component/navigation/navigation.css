@@ -1,0 +1,94 @@
+.hopsop-navbar-container{
+    background-color:var(--light-color);
+    min-height: 12vh;
+    padding:0.8rem 1.2rem 0.8rem 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 12px 16px 0px rgba(176,170,170,0.75);
+    -webkit-box-shadow: 1px 12px 16px 0px rgba(176,170,170,0.75);
+    -moz-box-shadow: 1px 12px 16px 0px rgba(176,170,170,0.75);
+  }
+  .hopsop-logo {
+    margin: 0 1rem;
+  }
+  .hopsop-left-navbar,.hopsop-right-navbar, .hopsop-navbar-links {
+    align-items:center;
+  }
+  .hopsop-navbar-link-list-item {
+    margin: 0 1rem;
+  }
+ 
+  .list-style-none{
+     list-style: none;
+  }
+  
+  .hopsop-search-bar-container {
+    align-items: center;
+    margin:0 0.5rem;
+    background-color: rgb(221, 221, 221);
+    border-radius: 0.3rem;
+  }
+  .hopsop-search-bar-container button {
+    height: 2rem;
+    padding: 0 0.5rem;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .search-bar {
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+  }
+  .hopsop-nav-icons {
+    display: flex;
+  }
+  .hopsop-nav-icon-link {
+    align-items: center;
+    border:none;
+    background-color:transparent;
+  }
+  .wishlist-button{
+      margin: 0rem  2.5rem;
+  }
+  .icon-size {
+    font-size: 1.3rem;
+  }
+  .hopsop-hamburger-icon{
+      display: none;
+  }
+
+
+@media only screen and (max-width:600px) {
+    .hopsop-navbar-link-list-item{
+        display: none;
+    }
+    
+    .badge-icon{
+        font-size: 1rem !important;
+    }
+    .icon-size{
+        font-size: 1rem;
+    }
+
+    .hopsop-navbar-link-list-item{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hopsop-navbar-container{
+        padding:0.8rem
+    }
+    .hopsop-search-bar-container{
+        display: none;
+    }
+    .hopsop-logo{
+        display: none;
+    }
+    .hopsop-hamburger-icon{
+        display: block;
+    }   
+   
+}
+ 

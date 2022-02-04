@@ -12,10 +12,10 @@
 }
 .input-box {
   position: relative;
-  margin: 20px 0;
+  margin: 1.2rem 0;
 }
 label {
-  padding: 0px 5px;
+  padding: 0 0.3rem ;
   pointer-events: none;
   position: absolute;
   left: 16px;
@@ -24,7 +24,7 @@ label {
   background: rgb(255, 253, 253);
 }
 input {
-  padding: 15px;
+  padding: 0.8rem;
   border-radius: 0.5rem;
   width: 50%;
   font-family:'Varela Round',sans-serif;

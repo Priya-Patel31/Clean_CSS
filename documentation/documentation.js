@@ -1,19 +1,20 @@
 var hamIcon = document.getElementById("hamburg");
 var sidebar = document.getElementById("sidebar-mobile");
+var close = document.getElementById("close");
+
 var isSideBarVisible = false;
 
-var close = false;
+var isClose = false;
 
-function setAttribute() {
-  sidebar.setAttribute("style", "display:block");
-  sidebar.setAttribute("style", "display:block");
+function toggle(){
+    (isSideBarVisible) ? sidebar.setAttribute("style", "display:none") : sidebar.setAttribute("style","display:block")
+    isSideBarVisible = !isSideBarVisible;
+    (isClose) ? close.setAttribute("style", "display:none") : close.setAttribute("style","display:block")
+    isClose = !isClose  ;
 }
-hamIcon.addEventListener("click", () => {
-  isSideBarVisible
-    ? sidebar.setAttribute("style", "display:none")
-    : setAttribute();
-  isSideBarVisible = !isSideBarVisible;
-});
+hamIcon.addEventListener("click", toggle);
+
+close.addEventListener("click",toggle);
 
 async function runApp() {
   const files = [
@@ -51,8 +52,16 @@ async function runApp() {
       source: fetch("../component/modal/modal.html"),
     },
     {
+      id: "navigation-container",
+      source: fetch("../component/navigation/navigation.html"),
+    },
+    {
       id: "rating-container",
       source: fetch("../component/rating/rating.html"),
+    },
+    {
+      id: "slider-container",
+      source: fetch("../component/slider/slider.html"),
     },
     {
       id: "grid-simplified-container",
@@ -81,7 +90,7 @@ async function runApp() {
 }
 runApp();
 
-//THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT A SECOND WAY OF DOING BY USING FETCH
+//THIS COMMENTED PART IS FOR FUTURE REFRENCE AS IT IS A SECOND WAY OF DOING BY USING FETCH
 
 // fetch("../component/alert/alert.html")
 // .then(res => res.text())

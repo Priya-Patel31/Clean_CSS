@@ -1,28 +1,5 @@
 .alert-heading {
-    font-size: 2rem;
     margin-top: 2.5rem;
-  }
-  .code-snippet-link {
-    box-sizing: border-box;
-    max-height: 25rem;
-    width: 100%;
-    overflow: auto;
-    padding: 1rem 0;
-    margin-bottom: 2rem;
-  }
-  
-  .code-example {
-    margin:2rem 0 1rem 0;
-    width: 95%;
-    max-width: 62.5rem;
-    height:12.5rem;
-  }
-  
-  .pink{
-    background-color:var(--light-pink);
-  }
-  .styling-color{
-    color:var(--light-pink);
   }
   .alert-common {
     padding: 1rem 0.5rem;

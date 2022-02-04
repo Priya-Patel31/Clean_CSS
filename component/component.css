@@ -68,6 +68,19 @@ a {
 li {
   cursor: pointer;
 }
+.code-example {
+  margin:2rem 0 1rem 0;
+  width: 95%;
+  max-width: 62.5rem;
+  height:12.5rem;
+}
+
+.pink{
+  background-color:var(--light-pink);
+}
+.styling-color{
+  color:var(--light-pink);
+}
 .p-1 {
   padding: 0.5rem;
 }

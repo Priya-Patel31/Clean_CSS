@@ -1,0 +1,20 @@
+.slider-container {
+    width: 50%;
+  }
+  .slider {
+    padding: 0 !important;
+    background: var(--light-pink);
+    -webkit-appearance: none;
+    border-radius:1rem;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--light-color);
+    border-radius: 50%;
+    border: 2px solid var(--light-pink);
+    cursor: pointer;
+  }
+  

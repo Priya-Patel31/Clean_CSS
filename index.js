@@ -1,15 +1,18 @@
 var hamIcon = document.getElementById("hamburg");
 var sidebar = document.getElementById("sidebar-mobile");
+var close = document.getElementById("close");
+
 var isSideBarVisible = false;
 
-var close = false;
+var isClose = false;
 
-function setAttribute(){
-    sidebar.setAttribute("style", "display:block");
-    sidebar.setAttribute("style","display:block")
-}
-hamIcon.addEventListener("click", () => {
-   (isSideBarVisible) ? sidebar.setAttribute("style", "display:none") : setAttribute()
+function toggle(){
+    (isSideBarVisible) ? sidebar.setAttribute("style", "display:none") : sidebar.setAttribute("style","display:block")
     isSideBarVisible = !isSideBarVisible;
-});
+    (isClose) ? close.setAttribute("style", "display:none") : close.setAttribute("style","display:block")
+    isClose = !isClose  ;
+}
+hamIcon.addEventListener("click", toggle);
+
+close.addEventListener("click",toggle);
 
