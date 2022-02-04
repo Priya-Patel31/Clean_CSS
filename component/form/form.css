@@ -23,7 +23,7 @@
   transition: all 0.2s ease;
   background: rgb(255, 253, 253);
 }
-input {
+.input-box input {
   padding: 0.8rem;
   border-radius: 0.5rem;
   width: 50%;
