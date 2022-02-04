@@ -48,6 +48,10 @@ async function runApp() {
       source: fetch("../component/image/image.html"),
     },
     {
+      id: "lists-container",
+      source: fetch("../component/lists/lists.html"),
+    },
+    {
       id: "modal-container",
       source: fetch("../component/modal/modal.html"),
     },

@@ -70,13 +70,15 @@
     .icon-size{
         font-size: 1rem;
     }
-
+    .wishlist-button{
+      margin:0 0.1rem;
+    }
     .hopsop-navbar-link-list-item{
         font-size: 1.5rem;
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:900px) {
     .hopsop-navbar-container{
         padding:0.8rem
     }
@@ -90,5 +92,14 @@
         display: block;
     }   
    
+}
+@media only screen and (max-width:1500px){
+  .search-bar{
+    display: none;
+}
+  .hopsop-navbar-link-list-item{
+    display: none;
+}
+  
 }
  

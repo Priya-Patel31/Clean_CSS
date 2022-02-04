@@ -1,4 +1,4 @@
-.outer-list-ctn{
+.outer-list-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -26,12 +26,8 @@
 .upper-alphabets-list{
     list-style: upper-alpha;
 }
-.outer-list2-ctn{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.ordered-list-ctn{
+
+.ordered-list-container{
     display: flex;
     flex-direction: column;
   
@@ -63,7 +59,4 @@
 .stacked-list-container li:hover{
     background-color:var(--mild-pink);
 }
-.links-ctn{
-    display: flex;
-    flex-wrap: wrap;
-}
+
