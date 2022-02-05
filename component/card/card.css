@@ -7,31 +7,6 @@
   background-color: var(--light-color);
   box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
 }
-.card-horizontal-heading {
-  margin-bottom: 0.3rem;
-}
-.card-horizontal-product-desc,
-.card-horizontal-sub-heading {
-  margin: 0;
-}
-.floating-action-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color:var(--light-pink);
-}
-.card-quantity{
-  align-items: center;
- gap:0.3rem;
-}
-.discount-rate{
-color:var(--red-color);
-font-size: 0.7rem;
-}
 .card-horizontal-image-container {
   flex: 0.7;
   padding: 3%;
@@ -52,7 +27,6 @@ font-size: 0.7rem;
   height: 100%;
   object-fit: cover;
 }
-
 .discount-price {
   font-size: 1.063rem;
 }
@@ -78,9 +52,9 @@ font-size: 0.7rem;
 .vertical-outer-container {
   position: relative;
 }
-.vertical-card-heading {
+.vertical-card-heading{
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
 }
 .vertical-image-container {
   flex: 1;
