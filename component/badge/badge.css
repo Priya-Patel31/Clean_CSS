@@ -10,6 +10,7 @@
   flex-wrap: wrap;
 }
 .circle {
+   position: absolute;
   border-radius: 50%;
   border: 3px solid var(--light-color);
   border: 3px solid white;
@@ -23,7 +24,7 @@
   background-color: var(--dark-blue);
 }
 .lg-circle {
-  position: absolute;
+ 
   bottom: 1.6rem;
   right: 0.4rem;
   width: 0.7rem;
