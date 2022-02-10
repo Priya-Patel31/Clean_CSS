@@ -4,8 +4,7 @@
 .sm-badge {
   position: relative;
 }
-.badge-xxl-container {
-  display: flex;
+.badge-container {
   align-items: center;
   flex-wrap: wrap;
 }
@@ -16,7 +15,6 @@
   border: 3px solid white;
 }
 .big-circle {
-  position: absolute;
   bottom: 1.9rem;
   right: 0.4rem;
   width: 1rem;
@@ -24,7 +22,6 @@
   background-color: var(--dark-blue);
 }
 .lg-circle {
- 
   bottom: 1.6rem;
   right: 0.4rem;
   width: 0.7rem;
@@ -32,7 +29,6 @@
   background-color: var(--dark-grey);
 }
 .md-circle {
-  position: absolute;
   bottom: 1rem;
   right: 0.2rem;
   width: 0.5rem;
@@ -40,7 +36,6 @@
   background-color: var(--light-pink);
 }
 .sm-circle {
-  position: absolute;
   bottom: 0.6rem;
   right: 0rem;
   width: 0.3rem;
@@ -61,7 +56,7 @@
 }
 .badge-icon-container {
   padding: 1rem 0;
-  width: 200px;
+  width: 12.5rem;
   display: flex;
   justify-content: space-between;
 }

@@ -10,7 +10,6 @@
     border: 2px solid var(--dark-blue);
     background-color: var(--sky-blue);
     color: var(--dark-blue);
-    display: flex;
     justify-content: space-between;
   }
   .alert-secondary {

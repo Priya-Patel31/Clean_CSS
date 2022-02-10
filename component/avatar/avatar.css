@@ -1,16 +1,10 @@
-.image-avatar{
-    display: flex;
+.image-avatar, .text-avatar{
     flex-wrap: wrap;
     align-items:center;
   }
   .avatar {
     border-radius: 50%;
     margin-left: 1rem;
-  }
-  .text-avatar{
-    display:flex;
-    align-items:center;
-    flex-wrap: wrap;
   }
   .text-xl-avatar,
   .text-lg-avatar,
