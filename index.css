@@ -36,6 +36,8 @@
 .sidebar-logo-container {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items:center;
 }
 .logo {
   flex: 0.5;
@@ -67,6 +69,14 @@
   list-style: none;
   font-size: 1rem;
   padding: 0.5rem 0.5rem;
+}
+.sidebar-list-item a{
+  font-size:1.2rem;
+  
+}
+a:hover{
+  color:var(--light-pink);
+  font-weight:700;
 }
 
 /* Sidebar CSS ended */
