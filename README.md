@@ -4,7 +4,7 @@ Clean UI is a library that could be used to create robust and responsive UI's .
 
 ## Giphy
 
-Coming Soon...
+![CleanUI GIF](https://github.com/Priya-Patel31/Clean_CSS/blob/dev/images/cleanUI.gif)
 
 ## Features
 - Simple and easy to use components.
