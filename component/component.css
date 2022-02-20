@@ -37,6 +37,7 @@
   --red-color:rgb(250, 9, 9);
   --overlay-color:rgba(209, 209, 224, 0.5);
   --shadow-color:0px 0px 10px 4px rgb(0 0 0 / 10%);
+  --index-shadow: 0 2px 50px rgb(0 77 167 / 20%);
 }
 
 
