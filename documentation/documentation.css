@@ -28,11 +28,14 @@
 }
 
 .sidebar-logo-container {
-  border-bottom: 1px solid var(--dark-grey);
   display: flex;
-  position: relative;
   justify-content: center;
   align-items:center;
+  position: sticky;
+  top:0;
+  left:0;
+  box-shadow: var(--shadow-color);
+  background-color:var(--light-color);
 }
 .logo {
   flex: 0.5;
@@ -130,7 +133,9 @@
 .hero-section-container {
   grid-column-start: 2;
   grid-column-end: 3;
-  padding: 5%;
+}
+.comp-section{
+  padding: 5rem 1rem 0 1rem;
 }
 
 hr {

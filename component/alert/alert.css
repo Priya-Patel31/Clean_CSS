@@ -32,4 +32,8 @@
     background-color: var(--mild-pink);
     color: var(--light-pink);
   }
+  .close-btn{
+    border:none;
+    background-color:transparent;
+  }
  
